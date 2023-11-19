@@ -113,8 +113,8 @@ var Data = {
             "icon" : "knight.png",
             "bestAttribute" : "strength",
             "description" : "Strong, proud and resolute, Sir Rugnar will always faithfully defend his companions valiantly.",
-            "strength" : 13,
-            "hitPoints" : 144
+            "strength" : 19,
+            "hitPoints" : 10
         },
         {
             "name" : "Lady Alwyn",
@@ -148,8 +148,8 @@ var Data = {
             "icon" : "ranger.png",
             "bestAttribute" : "accuracy",
             "description" : "Incredibly dedicated, Feraldan began learning the skill of archery as soon as he was old enough to hold a bow.",
-            "accuracy" : 3,
-            "hitPoints" : 2
+            "accuracy" : 13,
+            "hitPoints" : 10
         },
         {
             "name" : "Silvana",
@@ -177,14 +177,14 @@ var Data = {
             "hitPoints" : 2
         },
         {
-            "name" : "Gorlok",
+            "name" : "Jan der Can.",
             "job" : "Wizard",
             "type" : "mage",
             "icon" : "wizard.png",
             "bestAttribute" : "awareness",
             "description" : "Gorlok's diverse magical abilities are the result of a keen mind and assiduous studies.",
-            "awareness" : 3,
-            "hitPoints" : 1
+            "awareness" : 30,
+            "hitPoints" : 14
         },
         {
             "name" : "Gaelabeth",
@@ -238,7 +238,7 @@ var Data = {
             "type" : "heal",
             "target" : "touch",
             "minAmount" : 1,
-            "maxAmount" : 5,
+            "maxAmount" : 50,
             "modifyAmount" : 100
         },
         {
@@ -248,8 +248,8 @@ var Data = {
             "spellPoints" : 2,
             "type" : "damage",
             "target" : "touch",
-            "minAmount" : 1,
-            "maxAmount" : 4,
+            "minAmount" : 10,
+            "maxAmount" : 40,
             "modifyAmount" : 100
         },
         {
@@ -452,10 +452,10 @@ var Data = {
         {
             "name" : "Ice Blast",
             "who" : "Wizard",
-            "level" : 7,
-            "spellPoints" : 7,
+            "level" : 1,
+            "spellPoints" : 1,
             "type" : "damage",
-            "target" : "range",
+            "target" : "area",
             "minAmount" : 9,
             "maxAmount" : 21,
             "modifyAmount" : 100,

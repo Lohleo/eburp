@@ -1,0 +1,25 @@
+{
+  "name": "kurg",
+  "version": "0.0.1",
+  "description": "gurk clone v4",
+  "main": "",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lohleo/eburp.git"
+  },
+  "author": "Lohleo",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/Lohleo/eburp/issues"
+  },
+  "homepage": "https://github.com/Lohleo/eburp#readme",
+  "devDependencies": {
+    "coffeescript": "^2.7.0"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

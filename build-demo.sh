@@ -3,11 +3,11 @@
 # Compile tools
 echo Building tools...
 mkdir -p out/production/jurk
-javac -d out/production/jurk tools/gurk/*.java
+javac -d out/production/jurk tools/gurk/*.java -Xlint:deprecation
 
 # Run image compiler
-echo Processing images...
-java -cp out/production/jurk gurk.ImageCompiler game/gurkDemo.js web
+#echo Processing images...
+#java -cp out/production/jurk gurk.ImageCompiler game/gurkDemo.js web
 
 # Run build script
 echo Building game...
