@@ -107,14 +107,14 @@ var Data = {
 
     characters : [
         {
-            "name" : "Sir Rugnar",
+            "name" : "Sir Leonidas",
             "job" : "Knight",
             "type" : "warrior",
             "icon" : "knight.png",
             "bestAttribute" : "strength",
             "description" : "Strong, proud and resolute, Sir Rugnar will always faithfully defend his companions valiantly.",
-            "strength" : 3,
-            "hitPoints" : 4
+            "strength" : 13,
+            "hitPoints" : 144
         },
         {
             "name" : "Lady Alwyn",
